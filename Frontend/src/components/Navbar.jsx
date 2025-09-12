@@ -23,19 +23,19 @@ const Navbar = () => {
 
       {/* center: links (hidden on mobile) */}
       <div className="hidden md:flex items-center gap-8 text-2xl text-white font-semibold poppins-medium">
-        <a href="#hero" className="active:text-red-500">
+        <a href="#hero" className="active:text-red-500 hover:underline">
           Home
         </a>
-        <a href="#about" className="active:text-red-500">
+        <a href="#about" className="active:text-red-500 hover:underline">
           About
         </a>
-        <a href="#projects" className="active:text-red-500">
+        <a href="#projects" className="active:text-red-500 hover:underline">
           Projects
         </a>
-        <a href="#service" className="active:text-red-500">
+        <a href="#service" className="active:text-red-500 hover:underline">
           Services
         </a>
-        <a href="#skills" className="active:text-red-500">
+        <a href="#skills" className="active:text-red-500 hover:underline">
           Skills
         </a>
       </div>

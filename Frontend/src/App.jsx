@@ -1,11 +1,11 @@
 import Navbar from './components/Navbar';
-import Hero from './pages/hero';
-import About from './pages/About';
-import Skills from './pages/Skills';
-import Project from './pages/Projects';
-import Contact from './pages/Contact';
-import Service from './pages/Service';
-import Footer from './pages/Footer';
+import Hero from './pages/Hero.jsx';
+import About from './pages/About.jsx';
+import Skills from './pages/Skills.jsx';
+import Project from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
+import Service from './pages/Service.jsx';
+import Footer from './pages/Footer.jsx';
 
 
 const App = () => {

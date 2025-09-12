@@ -11,7 +11,7 @@ const About = () => {
     >
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         {/* first Part */}
-        <div className="firstPart w-full h-full flex items-center justify-center">
+        <div className="firstPart w-full h-full flex items-center justify-center hover:scale-125 transition-all duration-600">
           {/* placeholder for image or illustration */}
           <div className="w-48 h-48 md:w-96 md:h-96 bg-white/20 rounded-full overflow-hidden relative">
             <img
@@ -33,9 +33,9 @@ const About = () => {
           </div>
 
           {/* heading Question */}
-          <div className="headingQuestion poppins-bold  text-2xl md:text-5xl tracking-tighter font-semibold mt-3">
+          <div className="headingQuestion poppins-bold  text-2xl md:text-5xl tracking-tighter font-semibold mt-3 hover:scale-105 transition-all duration-200">
             <span className="text-white">Who is </span>
-            <span className="text-amber-500">Neeraj Gupta?</span>
+            <span className="text-amber-500 ">Neeraj Gupta?</span>
           </div>
 
           {/* description */}
