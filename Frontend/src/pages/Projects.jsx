@@ -2,26 +2,52 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard";
 import recipiesImage from "../assets/images/recipies.jpeg";
 import cricketImage from "../assets/images/cricket.jpeg";
+import Portfolio_image_Neeraj_Gupta from "../assets/images/neeraj_gupta_portfolio.png";
+import weatherAppImage from "../assets/images/weather.jpeg";
 
 const Projects = () => {
   const projects = [
     {
       title: "Virat Elite Series",
-      summary: "Full CRUD, charts, role-based auth",
+      summary:
+        "A responsive frontend application showcasing premium cricket gear with dynamic product listings, interactive UI, and smooth navigation.",
       tech: ["React", "Tailwind", "Vite"],
       image: cricketImage,
-      live: "#LIVEURL",
-      source: "#GITHUB",
-      impact: "Cut manual ops by 40%",
+      live: "https://elite-series.netlify.app/",
+      source: "https://github.com/neeraj-bmj/Virat_Elite_Series",
+      impact:
+        "Enhanced user experience with fast loading, modern design, and seamless browsing across devices.",
     },
     {
-      title: "Recipes Info",
-      summary: "Full CRUD, charts, role-based auth",
+      title: "Recipes Management System",
+      summary:
+        "A full-stack web app to manage recipes with CRUD operations, interactive charts, and secure role-based authentication.",
       tech: ["React", "Node", "MongoDB", "Tailwind"],
       image: recipiesImage,
       live: "#LIVEURL",
       source: "#GITHUB",
-      impact: "Cut manual ops by 40%",
+      impact:
+        "Streamlined recipe tracking and reduced manual operations by 40%, improving overall efficiency.",
+    },
+    {
+      title: "WeatherNow",
+      summary:
+        "A responsive weather application that fetches real-time weather data using an external Weather API, featuring location-based search and clean UI design.",
+      tech: ["React", "Weather API", "TailwindCSS"],
+      image: weatherAppImage,
+      live: "https://weathers-neeraj.netlify.app/",
+      source: "https://github.com/neeraj-bmj/Weather-app",
+      impact:
+        "Delivered accurate, real-time forecasts with an intuitive interface, improving user convenience in checking daily weather.",
+    },
+    {
+      title: "Portfolio Website",
+      summary: "Personal portfolio with contact form and responsive UI",
+      tech: ["React", "Tailwind", "EmailJS"],
+      image: Portfolio_image_Neeraj_Gupta,
+      live: "https://neerajgupta.netlify.app",
+      source: "https://github.com/neeraj-bmj/Portfolio_Neeraj_Gupta",
+      impact: "Showcases skills and improves visibility",
     },
   ];
 
@@ -58,7 +84,6 @@ const Projects = () => {
                 <i className="fa-solid fa-arrow-down text-amber-500"></i>
               </div>
             </div>
-
           </div>
 
           {/* comming soon */}
