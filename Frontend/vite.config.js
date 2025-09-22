@@ -10,8 +10,8 @@ export default defineConfig({
     react(),
     VitePWA({
       manifest: {
-        name: "Neeraj Portfolio",
-        short_name: "Portfolio",
+        name: "Neeraj Gupta || Portfolio",
+        short_name: "Neeraj Gupta",
         description: "This is about your personal Portfolio website.",
         icons: [
           {
