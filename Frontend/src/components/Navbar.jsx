@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import heroImage from "../assets/images/neerajgupta.jpg"
+import heroImage from "../assets/images/icon_portfolio.jpg"
 
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
           <img
             src={`${heroImage}`}
             alt="Neeraj-Gupta"
-            className="w-full h-full object-cover scale-x-[-1]"
+            className="w-full h-full object-cover"
           />
         </div>
         <div className="name text-white text-xl md:text-2xl lg:text-5xl font-semibold noto-sans-jp-NeerajGuptaName">

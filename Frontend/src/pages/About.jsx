@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Style.css";
-import heroImage from "../assets/images/neerajgupta.jpg";
+import heroImage from "../assets/images/icon_portfolio.jpg";
 // import neeraj_gupta_cv  from "../assets/resume/DummyResume1.pdf";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
           <div className="w-48 h-48 md:w-96 md:h-96 bg-white/20 rounded-full overflow-hidden relative">
             <img
               src={heroImage}
-              className="w-full h-full object-cover scale-x-[-1] absolute inset-0 "
+              className="w-full h-full object-cover  absolute inset-0 "
               alt="Neeraj Gupta"
             />
           </div>
